@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  height: 100vh;
+}
+
+/* Menu lateral */
+#menu {
+  width: 220px;
+  background: #696969;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#menu h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#menu button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  background: #555;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#menu button:hover {
+  background: #777;
+}
+
+/* Área de conteúdo */
+#content {
+  flex: 1;
+  padding: 20px;
+  background: #f9f9f9;
+  overflow-y: auto;
+
+  /* Centralização */
+  display: flex;              /* ativa o flexbox */
+  flex-direction: column;     /* organiza em coluna */
+  justify-content: flex-start;    /* centraliza verticalmente */
+  align-items: center;        /* centraliza horizontalmente */
+  text-align: center;        /* centraliza textos */
+}
+#content input {
+  padding: 8px;
+  font-size: 14px;
+}
+
+#content button {
+  margin-top: 10px;   /* distância entre o input e o botão */
+  padding: 8px 12px;
+  font-size: 14px;
+  background: #555;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#content button:hover {
+  background: #777;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+.combatente {
+  margin: 5px 0;
+}
